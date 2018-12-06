@@ -1,0 +1,41 @@
+#nametxt, #emailtxt {
+    display: inline-block;
+    margin-bottom: 1em;
+    width: 49%
+}
+
+#subjecttxt, #messagetxt {
+    display: block;
+    margin-bottom: 1em;
+    width: 98.5%
+}
+
+.ascf-error {
+    background-color: lightcoral;
+    border: solid coral 3px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.ascf-success {
+    background-color: #72d204;
+    border: solid #0e9c0e 3px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.sugar {
+    display: none!important;
+}
+
+.nota {
+    font-size: 0.7em;
+}
+
+@media screen and (max-width: 580px) {
+    #nametxt, #emailtxt {
+        display: block;
+        margin-bottom: 1em;
+        width: 99%
+    }
+    
+}
+   
